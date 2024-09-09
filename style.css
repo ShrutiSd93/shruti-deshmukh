@@ -294,40 +294,6 @@ nav .fa-solid {
     padding: 0 0.5rem;
 }
 
-.about .row .counter {
-    flex: 1 1 48rem;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.about .row .counter .box {
-    width: 20rem;
-    background: var(--bg);
-    text-align: center;
-    justify-content: center;
-    padding: 3rem;
-    margin: 2rem;
-}
-
-.about .row .counter .box:hover {
-    box-shadow: 0px 3px 12px 0px rgba(97, 88, 88, 0.805);
-}
-
-.about .row .counter .box span {
-    font-size: 4rem;
-    color: #b54769;
-}
-
-.about .row .counter .box h3 {
-    font-size: 2rem;
-    color: #fff;
-    font-family: 'poppins';
-    font-weight: normal;
-    line-height: 30px;
-    letter-spacing: 1px;
-}
-
 
 /* ******************************************************************************Skills************************************************** */
 
@@ -1235,7 +1201,7 @@ form textarea {
     }
 
     .about .row .info h3 {
-        font-size: 4rem;
+        font-size: 2rem;
         color: white;
         padding: 2rem 0;
         font-weight: normal;
@@ -1246,6 +1212,7 @@ form textarea {
         padding: 0 0.5rem;
     }
 }
+
 
 @media only screen and (max-width:1199px) {
     .heading {
@@ -1281,7 +1248,7 @@ form textarea {
     }
 
     .about .row .info h3 {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
         color: white;
         padding: 2rem 0;
         font-weight: normal;
